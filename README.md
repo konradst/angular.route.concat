@@ -45,6 +45,7 @@ Concat multiple @angular/router RouterConfigs so you can keep component route de
   ])
     .catch(err => console.error(err));
   ```
+  
 ## Todo
 
 package.json
