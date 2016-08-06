@@ -10,11 +10,13 @@ Concat multiple @angular/router RouterConfigs so you can keep component route de
   import {RouterConfig} from '@angular/router';
   import {UserHomeComponent} from './index';
   
+  // if it were the whole application, this would be your final RouterConfig
   const config:RouterConfig = [
     {path: 'user-home', component: UserHomeComponent}
   ];
   
-  // user routes will be resolved first
+  // but we'll create a ConcatRoute object from this (to give it order)
+  // we want user routes will be resolved first
   export const routes:ConcatRoute = {
     order: 1,
     routerConfig: config
