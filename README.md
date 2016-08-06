@@ -22,7 +22,7 @@ Concat multiple @angular/router RouterConfigs so you can keep component route de
     routerConfig: config
   };
   ```
-2. Include routes from multiple components by inserting them into array and concatting
+2. Merge array of routes of multiple components into one  by applying concatRoute
   ```
   // ./app/app.routes.js
   import {provideRouter} from '@angular/router';
