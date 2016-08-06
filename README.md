@@ -1,4 +1,4 @@
-# route.concat
+# angular.route.concat
 Concat multiple @angular/router RouterConfigs so you can keep component route definitions inside component folders
 
 ## Example
