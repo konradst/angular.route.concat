@@ -15,7 +15,7 @@ Concat multiple @angular/router RouterConfigs so you can keep component route de
     {path: 'user-home', component: UserHomeComponent}
   ];
   
-  // but we'll create a ConcatRoute object from this (to give it order)
+  // but we'll create a ConcatRoute object (to give it order) and export it
   // we want user routes will be resolved first
   export const routes:ConcatRoute = {
     order: 1,
